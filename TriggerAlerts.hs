@@ -6,6 +6,8 @@ import Protolude
 -- be a note field but we should be able to expand this to include other
 -- objects.
 --
+-- TODO: where should we track the note ID?
+--
 -- The type variable represent the type of data in the field.
 data Field a
 
