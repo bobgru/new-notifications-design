@@ -75,7 +75,9 @@ initial JSON structure has been outlined for this.
 
 Questions about the above:
 
-1. `field` is duplicated - which one do we want?
+1. `field` is duplicated. Which one do we want?
+1. `alert_type` is duplicated. Do we want to incorporate the values defined in
+   the second defintion?
 1. `condition` and `operator` seem to have overlap.  Should they be merged?
 
 See [this Haskell file](TriggerAlerts.hs) for some data types to encode alert triggers.
